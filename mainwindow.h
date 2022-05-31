@@ -19,9 +19,9 @@ public:
 //Кнопки
 private slots:
     void digits_numbers();//Этот слот будет вызываться при нажатии на любую кнопку от 0 до 9
-    void on_pushButton_dot_clicked();//Точка
-    void oparations();//операции
-    void on_pushButton_AC_clicked();
+    void on_pushButton_dot_clicked();
+    void oparations();
+    void on_pushButton_AC_clicked();//AC
     void on_pushButton_equals_clicked();
     void math_operations();
 

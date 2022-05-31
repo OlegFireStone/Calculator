@@ -8,7 +8,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+//connect
     connect(ui->pushButton_0, SIGNAL(clicked()), this, SLOT(digits_numbers()));//Соединяем кнопку(ui->pushButton_0) со слотом при нажатии на неё(SIGNAL(clicked())). Работаем с this объектом
     connect(ui->pushButton_1, SIGNAL(clicked()), this, SLOT(digits_numbers()));
     connect(ui->pushButton_2, SIGNAL(clicked()), this, SLOT(digits_numbers()));
