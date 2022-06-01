@@ -22,7 +22,7 @@ private slots:
     void on_pushButton_dot_clicked();
     void oparations();
     void on_pushButton_AC_clicked();//AC
-    void on_pushButton_equals_clicked();
+    void on_pushButton_equals_clicked();//Равенство
     void math_operations();
 
 
