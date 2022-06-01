@@ -21,7 +21,7 @@ private slots:
     void digits_numbers();//Ётот слот будет вызыватьс€ при нажатии на любую кнопку от 0 до 9
     void on_pushButton_dot_clicked();//точка
     void oparations();//операции
-    void on_pushButton_AC_clicked();//AC
+    void on_pushButton_AC_clicked();//AC(0)
     void on_pushButton_equals_clicked();//–авно
     void math_operations();//математические операции
 
