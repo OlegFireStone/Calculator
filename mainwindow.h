@@ -16,14 +16,14 @@ public:
     ~MainWindow();
 
 //.............
-//������
-private slots:
-    void digits_numbers();//123
-    void on_pushButton_dot_clicked();//123
-    void oparations();
-    void on_pushButton_AC_clicked();
-    void on_pushButton_equals_clicked();
-    void math_operations();
+//Êíîïêè
+private slots
+    void digits_numbers();//Ýòîò ñëîò áóäåò âûçûâàòüñÿ ïðè íàæàòèè íà ëþáóþ êíîïêó îò 0 äî 9
+    void on_pushButton_dot_clicked();//òî÷êà
+    void oparations();//îïåðàöèè
+    void on_pushButton_AC_clicked();//AC(0)
+    void on_pushButton_equals_clicked();//Ðàâíî
+    void math_operations();//ìàòåìàòè÷åñêèå îïåðàöèè
 
 
 private:
