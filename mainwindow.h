@@ -19,7 +19,7 @@ public:
 //Кнопки
 private slots:
     void digits_numbers();//123
-    void on_pushButton_dot_clicked();
+    void on_pushButton_dot_clicked();//123
     void oparations();
     void on_pushButton_AC_clicked();
     void on_pushButton_equals_clicked();
