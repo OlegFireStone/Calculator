@@ -16,14 +16,14 @@ public:
     ~MainWindow();
 
 //.............
-//Кнопки
-private slots:
-    void digits_numbers();//Этот слот будет вызываться при нажатии на любую кнопку от 0 до 9
-    void on_pushButton_dot_clicked();//точка
-    void oparations();//операции
+//ГЉГ­Г®ГЇГЄГЁ
+private slots
+    void digits_numbers();//ГќГІГ®ГІ Г±Г«Г®ГІ ГЎГіГ¤ГҐГІ ГўГ»Г§Г»ГўГ ГІГјГ±Гї ГЇГ°ГЁ Г­Г Г¦Г ГІГЁГЁ Г­Г  Г«ГѕГЎГіГѕ ГЄГ­Г®ГЇГЄГі Г®ГІ 0 Г¤Г® 9
+    void on_pushButton_dot_clicked();//ГІГ®Г·ГЄГ 
+    void oparations();//Г®ГЇГҐГ°Г Г¶ГЁГЁ
     void on_pushButton_AC_clicked();//AC(0)
-    void on_pushButton_equals_clicked();//Равно
-    void math_operations();//математические операции
+    void on_pushButton_equals_clicked();//ГђГ ГўГ­Г®
+    void math_operations();//Г¬Г ГІГҐГ¬Г ГІГЁГ·ГҐГ±ГЄГЁГҐ Г®ГЇГҐГ°Г Г¶ГЁГЁ
 
 
 private:
